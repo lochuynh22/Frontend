@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/www.mysv" method="post">
+    <label for="username">Họ và tên <input type="text" required></label>
+    <br>
+    <label for="date">Chọn ngày và giờ <input type="datetime-local" required></label>
+    <br>
+    Loại dịch vụ
+    <select name="ops" required>
+        <option value="Tư vấn">Tư Vấn</option>
+        <option value="Giao">Giao</option>
+        <option value="Mua">Mua</option>
+    </select>
+    <br>
+    Ghi chú
+    <textarea name="note" id="note" rows="2" cols="30" required></textarea>
+    <br>
+    <button>Đặt lịch</button>
+    </form>
+</body>
+</html>

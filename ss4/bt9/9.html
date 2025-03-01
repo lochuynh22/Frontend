@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    table {
+    width: 100%;
+    text-align: left;
+}
+
+th, td {
+    padding: 8px;
+    /* Căn chỉnh nội dung theo chiều dọc */
+    vertical-align: middle;
+}
+td img {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    /* Cắt phần dư thừa */
+    overflow: hidden; 
+}
+</style>
+<body>
+    <h1>CatPhotoApp</h1>
+    <h3>Cat Photos</h3>
+    <p>everyone love <a href="https://www.bing.com/images/search?q=cute+cat&form=HDRSC3&first=1">Cute cat</a> online?</p>
+    <p>See more <a href="https://www.bing.com/images/search?q=cats%20photo&FORM=IQFRBA&id=2F304EDA20B0B438812A33DACE27ADF34DE296D7">Cats photo</a>in our gallery</p>
+    <img src="https://th.bing.com/th/id/OIP.ucSJNxURC6BOL_Vb9r70bQHaHa?w=177&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Error">
+    <h3>Cats List</h3>
+    <h5>Things cats love:</h5>
+    <ul>
+        <li>cat nip</li>
+        <li>laser pointers</li>
+        <li>lasagna</li>
+        <img src="https://th.bing.com/th/id/R.8571ebb583b9de3ce70cc8601dcbb84c?rik=L24B0VMO3Y1LKw&riu=http%3a%2f%2fcdn.tgdd.vn%2fFiles%2f2021%2f04%2f23%2f1345727%2fcach-lam-pate-cho-meo-don-gian-tai-nha-202203020020183725.jpg&ehk=eyJax8Ps3gYQ1gUjPJOP%2bnjY%2b85KXR9V5ms8Fu7jCps%3d&risl=&pid=ImgRaw&r=0" width="30%" height="30%" alt="Error">
+        <br>
+        <i> Cats love lasaga.</i>
+    </ul>
+    <h3>Top 3 things cats hate</h3>
+    <ol>
+        <li>Fica treatment</li>
+        <li>thunder</li>
+        <li>other cats</li>
+        <img src="https://th.bing.com/th/id/OIP.Z93LIzAExBnZ6BopBRxkBQHaEJ?rs=1&pid=ImgDetMain" alt="Error">
+        <br>Cats <b> hate</b> orther cat 
+    </ol>
+    <h2>Cat breed</h2>
+    <table border="2">
+        <thead>
+            <tr>
+                <th>Breed</th>
+                <th>Location of origin</th>
+                <th>type</th>
+                <th>Body type</th>
+                <th>Coat type and lengh</th>
+                <th>Coat pattern</th>
+                <th>Image</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><a href=" https://en.wikipedia.org/wiki/Abyssinian_cat">Abyssinian <sup>[8]</sup></a></td>
+                <td>Unspecified, but somewhere in Afro-Asia, likely <a href="https://en.wikipedia.org/wiki/Ethiopia">Ethiopia</a> <sup>[9]</sup></td>
+                <td>Natural</td>
+                <td>Semi-foreign</td>
+                <td>Short</td>
+                <td>Ticked tabby</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/330px-Gustav_chocolate.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/Aegean">Aegean</a></td>
+                <td>Greece</td>
+                <td>Natural</td>
+                <td>Moderate</td>
+                <td>Semi-long</td>
+                <td>Multi-color</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/330px-Gustav_chocolate.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/American_Bobtail">American Bobtail<sup>[10]</sup></a></td>
+                <td>United States <a href="https://en.wikipedia.org/wiki/United_States"><sup>[11]</sup></a></td>
+                <td>Mutation of shortened tail</td>
+                <td>Cobby</td>
+                <td>Semi-long</td>
+                <td>All</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/330px-Gustav_chocolate.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td><a href="https://en.wikipedia.org/wiki/American_Curl">American Curl <sup>[12]</sup></a></td>
+                <td>United States<a href="https://en.wikipedia.org/wiki/United_States"><sup>[11]</sup></a></td>
+                <td>Mutation</td>
+                <td>Semi-foreign</td>
+                <td>Semi-long</td>
+                <td>All</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/330px-Gustav_chocolate.jpg" alt=""></td>
+            </tr>
+            <tr>
+                <td><a href="https://www.petguide.com/breeds/cat/american-ringtail-cat/">American Ringtail</a></td>
+                <td>United States<a href="https://en.wikipedia.org/wiki/United_States"><sup>[11]</sup></a></td>
+                <td>Mutation</td>
+                <td>Foreign</td>
+                <td>Semi-long</td>
+                <td>All</td>
+                <td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Gustav_chocolate.jpg/330px-Gustav_chocolate.jpg" alt=""></td>
+            </tr>
+        </tbody>
+    </table>
+    <h3>Cat Form</h3>
+    <form action="https://www.google.com/">
+    <label for="choose">Your cat an indoor or outdoor</label>
+    <br>
+    <input type="radio" name="choose" id="choose" value="indoor">indoor <input type="radio" name="choose" id="choose" value="outdoor">outdoor
+    <br>
+    <label for="ops">What is your cat personally?</label>
+    <br>
+    <input type="checkbox" name="ops" id="ops" value="loving">Loving
+    <input type="checkbox" name="ops" id="ops" value="Lazy">lazy
+    <input type="checkbox" name="ops" id="ops" value="Energetic">Energetic
+    <br>
+    <input type="url" placeholder="Cat photo url">
+    <button type="submit">Submit</button>
+    <br>
+
+</form>
+<p>No Copy right <a href="https://portal.rikkei.edu.vn/">Rikkeiedu.vn</a></p>
+</body>
+</html>

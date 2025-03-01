@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>label{
+        display: inline-block;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    </style>
+</head>
+<body>
+    <form action="/https:www.mysv" method="post">
+        <label for="fullname">Họ và Tên: </label>
+        <input type="text" id="fullname" name="fullname" required>
+        <br> 
+        <label for="email">Email: </label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="dob">Ngày Sinh </label>
+        <input type="date">
+        <br>
+        <label for="gender">Giới tính:  </label>
+        Nam <input type="radio" value="nam" name="gender"> Nữ<input type="radio" value="Nữ" name="gender">
+        <br>
+        <label for="phonenumber">Số điện thoại: </label>
+        <input required type="text" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" placeholder="123-456-7890">
+        <br>
+        <label for="address">Địa chỉ: </label>
+        <textarea name="address" id="address" required></textarea>
+        <br>
+        <label for="role">Vai trò trong nhóm</label>
+        <select name="role" id="role">
+            <option value="Thành viên">Thành viên</option>
+            <option value="Nhóm trưởng">Nhóm Trưởng</option>
+            <option value="Nhóm Phó">Nhóm Phó</option>
+        </select>
+        <br>
+        <label for="hobby">Sở Thích:</label>
+        <input type="text" name="hobby" id="hobby">
+        <br>
+        <label for="skill">kĩ năng</label>
+        <input type="text" name="skill" id="hobby">
+        <br>
+        <label for="time_rest">Thời gian rảnh:</label>
+        <input type="checkbox" name="time_rest" id="time_rest" value="Sáng"> Sáng
+        <input type="checkbox" name="time_rest" id="time_rest" value="chiều"> chiều
+        <input type="checkbox" name="time_rest" id="time_rest" value="tối"> Tối
+        <br>
+        <label for="why">Lý do tham gia nhóm</label>
+        <textarea name="why" id="why"></textarea>
+        <br>
+        <label for="color">Màu Yêu thích</label>
+        <input type="color" value="">
+        <br>
+        <label for="check">Đăng ký nhận bảng tin:</label>
+        <input type="checkbox" name="check" id="check">có
+        <br>
+        <label for="get_no">Nhận Thông báo qua:</label>
+        <input type="radio" name="check" id="check" value="email">Email
+        <input type="radio" name="check" id="check" value="SMS">SMS
+        <br>
+        <button>Đăng Ký thành viên</button>
+
+        <input type="checkbox" name="local" id="lochuy">
+    </form>
+</body>
+</html>    

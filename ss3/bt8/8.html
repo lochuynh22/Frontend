@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>label{
+        display: inline-block;
+        width: 200px;
+        margin-bottom: 10px;
+    }
+    </style>
+</head>
+<body>
+    <form action="/https:www.mysv" method="post">
+        <label for="fullname">Họ và Tên: </label>
+        <input type="text" id="fullname" name="fullname" required>
+        <br>
+        <label for="dob">Ngày Sinh </label>
+        <input type="date">
+        <br>
+        <label for="gender">Giới tính: </label>
+        Nam<input type="radio" value="nam" name="gender"> Nữ<input type="radio" value="Nữ" name="gender">
+        <br>
+        <label for="num_id">Số Căn cước công dân: </label>
+        <input id="num_id" name="num_id" required type="text" >
+        <br>
+        <label for="datereg">Ngày cấp: </label>
+        <input type="date" name="datereg"required>
+        <br>
+        <label for="local">Nơi cấp </label>
+        <input type="text" id="local" name="local">
+        <br>
+        <label for="phonenumber">Số điện thoại:</label>
+        <input required type="text" pattern="[0-9]{3} [0-9]{3} [0-9]{4}" placeholder="123-456-7890">
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" id="email" required>
+        <br>
+        <label for="address">Địa chỉ thường trú: </label>
+        <textarea name="address" id="address" required></textarea>
+        <br>
+        <label for="address_1">Địa chỉ tạm trú: </label>
+        <textarea name="address_1" id="address_1" required></textarea>
+        <br>
+        <label for="op">Loại căn cước công dân:  </label>
+        <input type="radio" value="Mới" name="op">Căn cước công dân mới <input type="radio" value="Cũ" name="op">Căn cước công dân cũ
+        <br>
+        <label for="nation">Dân tộc </label>
+        <input type="text" id="nation" name="nation">
+        <br>
+        <label for="Religion">Tôn giáo </label>
+        <input type="text" id="Religion" name="Religion">
+        <br>
+        <label for="Citizenship">Tôn giáo </label>
+        <input type="text" id="Citizenship" name="Citizenship" value="Việt Nam">
+        <br>
+        <label for="fullname_fml">Họ và tên Cha Mẹ </label>
+        <input type="text" id="nation" name="nation">
+        <br>
+        <label for="num_idfml">Số Căn cước công dân: </label>
+        <input id="num_idfml" name="num_idfml" required type="text" >
+        <br>
+        <label for="city">Tỉnh thành phố: </label>
+        <select name="city" required>
+        <option value="Bến Tre">Bến Tre</option>
+        <option value="HCM">HCM</option>
+        </select>
+        <br>
+        <button>Gửi thông tin</button>
+
+    </form>
+</body>
+</html>
