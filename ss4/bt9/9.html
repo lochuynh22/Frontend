@@ -111,21 +111,24 @@ td img {
     </table>
     <h3>Cat Form</h3>
     <form action="https://www.google.com/">
-    <label for="choose">Your cat an indoor or outdoor</label>
+        <fieldset>
+            <legend><label for="choose">Your cat an indoor or outdoor</label></legend>
+            <input type="radio" name="choose" id="choose" value="indoor">indoor <input type="radio" name="choose" id="choose" value="outdoor">outdoor
+
+        </fieldset>
     <br>
-    <input type="radio" name="choose" id="choose" value="indoor">indoor <input type="radio" name="choose" id="choose" value="outdoor">outdoor
-    <br>
-    <label for="ops">What is your cat personally?</label>
-    <br>
-    <input type="checkbox" name="ops" id="ops" value="loving">Loving
-    <input type="checkbox" name="ops" id="ops" value="Lazy">lazy
-    <input type="checkbox" name="ops" id="ops" value="Energetic">Energetic
-    <br>
+    <fieldset>
+        <legend><label for="ops">What is your cat personally?</label>
+            <br>
+            <input type="checkbox" name="ops" id="ops" value="loving">Loving
+            <input type="checkbox" name="ops" id="ops" value="Lazy">lazy
+            <input type="checkbox" name="ops" id="ops" value="Energetic">Energetic</legend>
+    </fieldset>
     <input type="url" placeholder="Cat photo url">
     <button type="submit">Submit</button>
     <br>
 
 </form>
-<p>No Copy right <a href="https://portal.rikkei.edu.vn/">Rikkeiedu.vn</a></p>
+<p>&copf;No Copy right <a href="https://portal.rikkei.edu.vn/">Rikkeiedu.vn</a></p>
 </body>
 </html>

@@ -1,0 +1,25 @@
+.container{
+    width: 30%;
+    height: auto;
+    background-color: rgb(245, 244, 242);
+}
+.con_1{
+    display: inline-block;
+}
+
+.con_2{
+    display: inline-block;
+}
+
+.con_3{
+    display: inline-block;
+}
+input[type=text]{
+    width: 100%;
+    padding: 7px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }

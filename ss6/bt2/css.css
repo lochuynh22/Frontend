@@ -1,0 +1,42 @@
+.container{
+    background-color: rgb(243, 237, 229);
+padding: 10px;
+}
+body{
+    width: 15%;
+}
+input[type=text],input[type=email], input[type=password]{
+    width: 100%;
+    padding: 7px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  /* input[type=email]{
+    width: 100%;
+    padding: 7px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } */
+  /* input[type=password]{
+    width: 100%;
+    padding: 7px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  } */
+  button{
+    background-color: rgb(39, 144, 229);
+    border: 0;
+    width: 100%;
+    padding: 12px;
+    border-radius: 5px;
+    color: white;
+  }

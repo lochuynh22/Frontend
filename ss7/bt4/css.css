@@ -1,0 +1,8 @@
+.head h1{
+    border-left: 6px solid #FF6116;
+    padding-left: 5px;
+    line-height: 25px;
+}
+body{
+    width: 30%;
+}

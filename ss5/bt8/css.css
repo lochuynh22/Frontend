@@ -1,0 +1,52 @@
+.dash {
+    /* Đường gạch ngang nét đứt */
+    border-bottom: 3px dashed gray; 
+    margin-bottom: 15px;
+}
+
+.flex_container {
+    max-width: 70%;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.article {
+    display: flex;
+    /* Căn nội dung ngang với ảnh */
+    gap: 15px;
+        /* Tạo khoảng cách giữa các bài viết */
+    margin-bottom: 15px; 
+}
+
+.img img {
+    height: 60px;
+    width: 60px;
+    border-radius: 3px;
+}
+
+.article-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.subject {
+    color: gray;
+}
+
+.content {
+    font-weight: bold;
+    width: 100%;
+}
+
+.divider {
+    width: 2px;
+    background-color: #ccc;
+    margin: 0 20px;
+    height: auto;
+    min-height: 100%; 
+}

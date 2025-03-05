@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    padding: 0px 20px;
+}
+
+.head{
+    display: flex;
+    background-color: rgb(72, 120, 0);
+    color: white;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+    word-spacing: 10px;
+}
+.body{
+    text-align: center;
+    align-items: center;
+    padding: 50px 20px;
+}
+
+.box{
+    background-color: white;
+    padding: 30px 20px;
+}
+.body button{
+    background-color: green;
+    border: 0px;
+    border-radius: 3px;
+    padding: 7px 5px;
+    color: white;
+}
+.box button{
+    background-color: rgb(173, 173, 173);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px 210px;
+    border: 1px solid #fefefe;
+}

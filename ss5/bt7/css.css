@@ -1,0 +1,49 @@
+
+table{
+    border: 1px solid rgb(255, 255, 255);
+    margin: auto;
+    width: 80%;
+    border-collapse: collapse;
+}
+h1{
+    text-align: center;
+    color: rgb(42, 42, 86);
+}
+
+tr th{
+    text-align: center;
+    background-color: rgb(28, 76, 235);
+    color: white;
+    padding: 10px 10px;
+}
+tr td{
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    background-color: rgba(246, 238, 238, 0.83);
+}
+tr:nth-child(even){
+    background-color: rgb(255, 255, 255);
+}
+
+.view{
+    color: white;
+    background-color: rgb(38, 145, 54);
+    border: 0;
+    padding: 10px;
+
+}
+.Delete{
+    color: rgb(255, 255, 255);
+    background-color: rgb(223, 0, 0);
+    border: 0;
+    padding: 10px;
+
+}
+.Update{
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 249, 0);
+    border: 0;
+    padding: 10px;
+}

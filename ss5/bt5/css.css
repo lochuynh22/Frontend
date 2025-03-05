@@ -1,0 +1,10 @@
+body{
+    max-width: 50%;
+
+}
+
+.flex_container{
+    background-color: #fdf1e5; 
+    padding: 15px;
+    border-left: 5px solid #d4af37;
+}

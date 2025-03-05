@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="container">
+        <h2>
+            Billing address
+        </h2>
+        <div class="flex_container">
+            <div class="con_1">
+                <span>First name</span>
+                <br>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="con_2">
+                <span>Last name</span>
+                <br>
+                <input type="text" id="lastname" name="last name">
+            </div>
+            <div class="username">
+                <span>
+                    Username
+                </span>
+                <br>
+                <span>@</span>
+                <input type="text" id="username" name="username" placeholder="Username">
+            </div>
+            <span>Email</span>
+            <br>
+            <input type="email" id="email" placeholder="you@example.com">
+            <br>
+            <span>Address</span>
+            <br>
+            <input type="text" placeholder="1234 Main St" id="address">
+            <br>
+            <span>Address2(Optianal)</span>
+            <br>
+            <input type="text" placeholder="apartment or suite" id="address2">
+            <br>
+            <div class="con_1">
+                <span>Country</span>
+                <br>
+                <select name="Country" id="Country">
+                    <option value="">Select your option</option>
+                    <option value="VietNam">VietNam</option>
+                    <option value="ThaiLand">ThaiLand</option>
+                    <option value="Laos">Laos</option>
+                </select>
+            </div>
+            <div class="con_2">
+                <span>State</span>
+                <br>
+                <select name="Country" id="Country">
+                    <option value="">Select your option</option>
+                    <option value="Hồ Chí Minh">Hồ Chí Minh</option>
+                    <option value="Hà Nội">Hà Nội</option>
+                    <option value="Bến Tre">Bến Tre</option>
+                </select>
+            </div>
+            <div class="con_3">
+                <span>
+                    Zip
+                </span>
+                <br><input type="text" id="Zip" name="Zip">
+            </div>
+            <div class="line"></div>
+            <input type="checkbox" id="ship_1">
+            <span>Shipping address is the same as my billing address</span>
+            <br>
+            <input type="checkbox" id="ship_2">
+            <span>Save this infomation for next time</span>
+            <br>
+            <div class="line"></div>
+            <h2>Payment</h2>
+            <input type="radio" value="Credit" name="choose">
+            <span>Credit Card</span>
+            <br>
+            <input type="radio" value="Debit" name="choose">
+            <span>Debit Card</span>
+            <br>
+            <input type="radio" value="Paypal" name="choose">
+            <span>Paypal</span>
+            <br><br>
+            <div class="con_1">
+                <span>Name on card</span>
+                <br>
+                <input type="text" id="name_card">
+                <br>
+                <span style="font-size: 10px;">Full name as displayed on card</span>
+            </div>
+            <div class="con_2">
+                <span>Credit card number</span>
+                <br>
+                <input type="text" id="num_card">
+                <br>
+                <span style="font-size: 0px;">Full name as displayed on card</span>
+            </div>
+            <br>
+            <div class="con_1">
+                <span>Expiration</span>
+                <br>
+                <input type="text" id="Expiration">
+            </div>
+            <div class="con_2">
+                <span>CVV</span>
+                <br>
+                <input type="text" id="CVV">
+            </div>
+            <div class="line"></div>
+            <br>
+            <button>Continue to checkout</button>
+        </div>
+    </div>
+</body>
+</html>

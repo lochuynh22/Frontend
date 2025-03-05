@@ -1,0 +1,14 @@
+body{
+    background-color: black;
+}
+h1{
+    color: white;
+}
+p{
+    color: rgb(87, 248, 127);
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-decoration-style:dotted ;
+    text-decoration-color:rgb(77, 194, 223) ;
+    font-weight: bold;
+}
