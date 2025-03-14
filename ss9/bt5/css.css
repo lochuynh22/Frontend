@@ -16,67 +16,26 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
-.container{
-    max-width: 350px;
-    margin-top: 20px;
-    margin: auto;
+body{
+    max-width: 50%;
 }
-.head{
-    background-color: red;
-    text-align: center;
-    margin-top: 30px;
-    padding: 30px 30px;
-    border-radius: 5px;
-
-}
-.head p{
-    font-size: 26px;
-    color: white;
-    font-weight: bold;
-}
-.head img{
-    position: relative;
-    right:-160px;
-    top: -80px;
-}
-.body p span{
-    color: #FF971A;
-}
-.body p{
-    color: #828282;
-    font-weight: 600;
-}
-.body{
-    padding-top: 10px;
-    text-align: center;
-    border: 1px solid #EFEFEF;
-    border-top: none;
-    padding-bottom: 20px;
-
-}
-.footer {
+.container > div{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    color: rgb(8, 8, 8);
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    background-color: #800080;
+    gap: 5px;
     align-items: center;
-    margin-top: 20px;
-}
-
-.button1{
-    padding: 10px 20px;
-    font-size: 24px;
-    background-color: #C4152C;
+    justify-content: center;
+    border-radius: 3px;
     color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 15px 100px;
+    margin-top: 10px;
 }
-
-.button2{
-    padding: 10px 20px;
-    font-size: 24px;
-    background-color: #ffffff;
-    color: rgb(184, 55, 55);
-    border: 1px solid #C4152C;
-    border-radius: 30px;
+.container{
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

@@ -1,0 +1,99 @@
+.container{
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    display: flex   ;
+}
+
+.fas.fa-gem.icon{
+    color: orange;
+    padding: 40px;
+    border: 1px solid #ECEEEF;
+    transform: rotate(45deg);
+}
+.fa-solid.fa-rocket{
+    color: orange;
+    padding: 40px;
+    border: 1px solid #ECEEEF;
+    transform: rotate(45deg);
+}
+.fa-solid.fa-paper-plane{
+    color: orange;
+    padding: 40px;
+    border: 1px solid #ECEEEF;
+    transform: rotate(45deg);
+}
+.fa-solid.fa-chart-column{
+    color: orange;
+    padding: 40px;
+    border: 1px solid #ECEEEF;
+    transform: rotate(45deg);
+}
+.dimond{
+    width: 500px;
+}
+.rocket{
+    width: 500px;
+    display: block;
+}
+.faspapper{
+    width: 500px;
+}
+.fasignal{
+    width: 500px;
+}
+.container_1{
+    width: 90%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    display: flex   ;
+}
+
+.body_dimond p:nth-child(2){
+    color: #B5B8C7;
+    width: 70%;
+}
+.body_rocket p:nth-child(2){
+    color: #B5B8C7;
+    width: 70%;
+}
+.body_faspapper p:nth-child(2){
+    color: #B5B8C7;
+    width: 70%;
+}
+.body_fasignal p:nth-child(2){
+    color: #B5B8C7;
+    width: 70%;
+}
+
+.dimond{
+    display: flex;
+}
+.rocket{
+    display: flex;
+}
+.faspapper{
+    display: flex;
+}
+.fasignal{
+    display: flex;
+}
+.body_dimond p{
+    padding-left: 40px;
+    width: 70%;
+}
+.body_rocket p{
+    width: 70%;
+    padding-left: 40px;
+}
+.body_faspapper p{
+    width: 70%;
+    padding-left: 40px;
+}
+.body_fasignal p{
+
+    width: 70%;
+    padding-left: 40px;
+}

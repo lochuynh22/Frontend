@@ -1,0 +1,147 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+
+body{
+    margin-top: 20px;
+    
+    
+    .header{
+        background-color: red;
+    
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+    main{
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        .body{
+            display: flex;
+            width: 100%;
+            .side_1{
+                display: flex;
+                justify-content: center;
+                background-color: blue;
+                color: white;
+                padding: 20px;
+                border-radius: 10px;
+                width: 20%;
+                height: 30em;
+                margin-right: 10px;
+            }
+            .body_side{
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+                border-radius: 10px;
+                width: 60%;
+                height: 30em;
+                background-color: yellow;
+                color: #000;
+            }
+            .side_2{
+                display: flex;
+                justify-content: center;
+                background-color: rgb(247, 0, 255);
+                color: white;
+                padding: 20px;
+                border-radius: 10px;
+                width: 20%;
+                height: 30em;
+                margin-left: 10px;
+            }
+        }
+    }
+    .footer{
+        background-color: rgb(0, 255, 8);
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        color: white;
+        font-size: 20px;
+        border-radius: 10px;
+    }
+}
+
+@media screen and (max-width: 1024px){
+    body{
+        margin-top: 10px;
+        .header{
+            background-color: red;
+            text-align: center;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            color: white;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+        main{
+            width: 100%;
+            margin-top: 5px;
+            margin-bottom: 5px;
+            .body{
+                width: 100%;
+                flex-direction: column;
+                .side_1{
+                    justify-content: center;
+                    background-color: blue;
+                    color: white;
+                    padding: 10px;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 5em;
+                    margin-right: 0px;
+                    margin-bottom: 10px;
+                }
+                .body_side{
+                    justify-content: center;
+                    padding: 10px;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 20em;
+                    background-color: yellow;
+                    color: #000;
+                    margin-bottom: 10px;
+                }
+                .side_2{
+                    justify-content: center;
+                    background-color: rgb(247, 0, 255);
+                    color: white;
+                    padding: 10px;
+                    border-radius: 10px;
+                    width: 100%;
+                    height: 5em;
+                    margin-left: 0px;
+                }
+            }
+        }
+        .footer{
+            background-color: rgb(0, 255, 8);
+            text-align: center;
+            color: white;
+            font-size: 15px;
+            border-radius: 10px;
+        }
+    }
+    
+}

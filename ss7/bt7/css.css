@@ -1,0 +1,59 @@
+body {
+    max-width: 350px;
+    margin: 100px auto 0 auto; /* Cách đầu trang 100px, căn giữa */
+    border: 1px solid #D0E2FF;
+    border-radius: 6px;
+}
+
+.title_header p{
+    padding-left: 10px;
+    color: #212529;
+    font-weight: 700;
+}
+
+.body{
+    padding-left: 10px;
+}
+.con_body1{
+    padding: 20px 0px;
+}
+
+input[type="text"] {
+    width: 97%;
+    border: 1px solid gray;
+}
+
+textarea {
+    width: 97%;
+    border: 1px solid gray;
+}
+
+.container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+hr{
+    color: #DEE2E6;
+}
+.bu1{
+    padding: 10px;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 10px;
+}
+.bu2{
+    padding: 10px;
+    color: white;
+    background-color: rgb(87, 165, 244);
+    border: none;
+    border-radius: 10px;
+}
+.fa-solid.fa-x{
+    position: relative;
+    left: 150px;
+    color: gray;
+}

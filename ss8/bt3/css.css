@@ -16,67 +16,44 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
-.container{
-    max-width: 350px;
-    margin-top: 20px;
-    margin: auto;
-}
-.head{
-    background-color: red;
-    text-align: center;
-    margin-top: 30px;
-    padding: 30px 30px;
-    border-radius: 5px;
-
-}
-.head p{
-    font-size: 26px;
-    color: white;
-    font-weight: bold;
-}
-.head img{
-    position: relative;
-    right:-160px;
-    top: -80px;
-}
-.body p span{
-    color: #FF971A;
-}
-.body p{
-    color: #828282;
-    font-weight: 600;
-}
-.body{
-    padding-top: 10px;
-    text-align: center;
-    border: 1px solid #EFEFEF;
-    border-top: none;
-    padding-bottom: 20px;
-
-}
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+body{
+    margin-left: 20px;
     margin-top: 20px;
 }
 
-.button1{
-    padding: 10px 20px;
-    font-size: 24px;
-    background-color: #C4152C;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 15px 100px;
+td{
+    max-width: 230px;
+    gap: 10px;
+    
+}
+img{
+    width: 230px;
+    height: 100px;
+    padding: 20px;
+}
+b{
+    padding: 20px
+}
+p{
+    padding: 20px;
+}
+/* tr{
+    border-right: 2px solid rgb(211, 211, 209);
+} */
+
+.con_1{
+    border-right: 2px solid rgb(211, 211, 209);
 }
 
-.button2{
-    padding: 10px 20px;
-    font-size: 24px;
-    background-color: #ffffff;
-    color: rgb(184, 55, 55);
-    border: 1px solid #C4152C;
-    border-radius: 30px;
+button {
+    display: block;
+    margin: 0 auto;
+    padding: 8px 16px;
+    border: 2px solid orangered;
+    background: none;
+    color: orangered;
+    cursor: pointer;
+}
+td p{
+    color: #ccc;
 }

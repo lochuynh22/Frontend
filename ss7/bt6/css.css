@@ -16,67 +16,34 @@ table{border-collapse:collapse;border-spacing:0}
 hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
 input,select{vertical-align:middle}
 
-.container{
-    max-width: 350px;
-    margin-top: 20px;
-    margin: auto;
-}
-.head{
-    background-color: red;
-    text-align: center;
+.content{
+    max-width: 50%;
+    margin-left: 20px;
     margin-top: 30px;
-    padding: 30px 30px;
-    border-radius: 5px;
+    border-right: 1px solid #E1E5E9;
+    border-left: 1px solid #E1E5E9;
 
 }
-.head p{
-    font-size: 26px;
-    color: white;
-    font-weight: bold;
+
+.title{
+    border-top: 1px solid #E1E5E9;
+    border-bottom: 1px solid #E1E5E9;
+    padding: 20px 20px;
 }
-.head img{
-    position: relative;
-    right:-160px;
-    top: -80px;
-}
-.body p span{
-    color: #FF971A;
-}
-.body p{
-    color: #828282;
-    font-weight: 600;
-}
-.body{
+
+.con_1{
     padding-top: 10px;
-    text-align: center;
-    border: 1px solid #EFEFEF;
-    border-top: none;
-    padding-bottom: 20px;
-
-}
-.footer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 10px;
 }
 
-.button1{
-    padding: 10px 20px;
-    font-size: 24px;
-    background-color: #C4152C;
-    color: white;
-    border: none;
-    border-radius: 30px;
-    padding: 15px 100px;
+.fa-solid.fa-caret-down{
+    position: relative;
+    left: 920px;
+    bottom: 40px;
 }
-
-.button2{
-    padding: 10px 20px;
-    font-size: 24px;
-    background-color: #ffffff;
-    color: rgb(184, 55, 55);
-    border: 1px solid #C4152C;
-    border-radius: 30px;
+.fa-solid.fa-caret-up{
+    position: relative;
+    left: 920px;
+    bottom: 40px;
 }

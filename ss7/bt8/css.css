@@ -1,0 +1,50 @@
+*{
+    background-color:#F5F7FA;
+}
+body {
+    max-width: 420px;
+    margin: 100px auto 0 auto; /* Cách đầu trang 100px, căn giữa */
+    border: 1px solid #D0E2FF;
+    border-radius: 6px;
+}
+.container{
+    margin-left: 23px;
+    padding-right: 10px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.inactive-btn {
+    display: inline-block;
+    padding: 5px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #D35400; 
+    background-color: #FFE5B4; 
+    border: 2px solid #FFDAB9; 
+    border-radius: 15px; 
+    text-align: center;
+}
+.text_body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .hr_1{
+    position: relative;
+} */
+.hr_2{
+    position: relative;
+    left: -42px;
+    bottom: 16px;
+}
+hr{
+    border-radius: 5px;
+}
+
+.img_2{
+    position: relative;
+    left: -130px;
+}

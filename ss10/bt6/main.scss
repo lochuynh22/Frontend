@@ -1,0 +1,84 @@
+/*
+*  html5resetcss
+*/
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+.box{
+    width: 960px;
+    margin: 10px;
+    
+    button{
+        position: relative;
+        top: 50px;
+        left: 50px;
+        color: rgb(207, 207, 207);
+        padding: 6px;
+       border: 1px solid rgb(159, 159, 159);
+        background-color: rgba($color: #6f6e6e, $alpha: 0.2);
+    }
+
+    .footer{
+        position: relative;
+        bottom: 130px;
+        display: flex;
+        gap: 20px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #F1F3F7;
+        justify-content: end;
+        .fa-solid.fa-arrow-left, .fa-solid.fa-arrow-right{
+            padding: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+            background-color: #BAB8B8;
+        }
+        .fa-solid.fa-arrow-left:hover,.fa-solid.fa-arrow-right:hover{
+            border: 1px solid black;
+            padding: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+            color: white;
+            background-color: black;
+        }
+
+
+        p{
+            padding: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+
+        }
+        p:hover{
+            border: 1px solid black;
+            border-radius: 50%;
+            padding: 5px;
+            padding-right: 10px;
+            padding-left: 10px;
+            color: white;
+            background-color: black;
+        }
+    }
+    .text p{
+        position: relative;
+        margin-bottom: 10px;
+        bottom: 140px;
+        color: white;
+        margin-left: 50px;
+        width: 500px;
+    }
+
+
+}
